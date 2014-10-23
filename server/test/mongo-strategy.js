@@ -3,9 +3,9 @@ var MongoDBStrategy = rewire('../lib/mongo-strategy');
 
 var config = {
   dbUrl: 'https://api.mongolab.com/api/1',
-  dbName: 'ascrum',
+  dbName: 'ascrum_piczmar',
   dbCollection: 'users',
-  apiKey: '4fb51e55e4b02e56a67b0b66',
+  apiKey: 'HUP7KuF7xrNfJMf_CJCELdjdWuBMOQI2',
   testId : '5054bb33e4b024584b8f3419',
   testUser: { _id: { '$oid': '5054bb33e4b024584b8f3419' },
     lastName: 'Bloggs',
